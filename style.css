@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555555;
+    background-color: #ecf0f3;
+}
+
+form {
+    width: 430px;
+    height: 700px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.fields {
+    width: 100%;
+    padding: 60px 5px 5px 5px;
+}
+
+.fields input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555555;
+    padding: 20px 10px 20px 5px;
+}
+
+.email,
+.password,
+.name {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.fields i {
+    height: 22px;
+    margin: 0 10px -3px 25px;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    transition: all 0.5s;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #020024 0%, #00d4ff 100%, #090979 35%);
+}
+
+button:active {
+    box-shadow: 0 0 0, 0 0 0;
+}
+
+.password-link {
+    margin-top: -20px;
+    padding-right: 15px;
+    text-align: right;
+}
+
+.link {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.password-link a,
+.link a {
+    text-decoration: none;
+    color: #aaaaaa;
+    font-size: 15px;
+}
